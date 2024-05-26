@@ -83,9 +83,6 @@ function createGallery(arr) {
     .join(" ");
 }
 
-document.querySelector(".gallery-link").addEventListener("click", function(event){
-  event.preventDefault()
-});
 
 import SimpleLightbox from "simplelightbox";
 
